@@ -1,0 +1,42 @@
+.SignUpCSS
+{
+    position: absolute;
+    top:1rem;
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    height: auto;
+}
+.SignUpInputCSS
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #C1E2A4;
+    padding: 5%;
+    border-radius: 2.5rem;
+}
+.SignUpInputCSS input
+{
+    margin-bottom: 1%;
+    border: none;
+    border-radius: 2.5rem;
+    padding: 1%;
+}
+.SignUpInputCSS button
+{
+    width:30%;
+    border-radius: 2.5rem;
+    border: none;
+    padding: 1%;
+    color:#63d075;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    left:35%;
+    font-size:medium;
+}
+.SignUpInputCSS button:hover
+{
+    background-color: black;
+    transition: 0.5s;
+}
